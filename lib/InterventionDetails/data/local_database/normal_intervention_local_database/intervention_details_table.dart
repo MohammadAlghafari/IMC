@@ -1,0 +1,79 @@
+import 'package:drift/drift.dart';
+
+class InterventionDetailsTable extends Table {
+  IntColumn get id => integer().autoIncrement()();
+  TextColumn get startTimeOfIntervention => text().nullable()();
+  TextColumn get endTimeOfIntervention => text().nullable()();
+  RealColumn get latitude => real().nullable()();
+  RealColumn get longitude => real().nullable()();
+  TextColumn get localMeterImage => text().nullable()();
+  TextColumn get meterNumberImage => text().nullable()();
+  TextColumn get countingPanelImage => text().nullable()();
+  BoolColumn get confirmPpePorts => boolean().nullable()();
+  BoolColumn get confirmMacronsInstallation => boolean().nullable()();
+  BoolColumn get confirmTop => boolean().nullable()();
+  BoolColumn get canYouGetStartedToday => boolean().nullable()();
+  TextColumn get circuitBreakerBrand => text().nullable()();
+  TextColumn get month => text().nullable()();
+  TextColumn get year => text().nullable()();
+  TextColumn get serialNumberScanImage => text().nullable()();
+  TextColumn get sizeControlImage => text().nullable()();
+  BoolColumn get testOfVat => boolean().nullable()();
+  BoolColumn get settingsAnomaly => boolean().nullable()();
+  BoolColumn get circuitBreakerMalfuncttion => boolean().nullable()();
+  TextColumn get meterRate => text().nullable()();
+  TextColumn get fullTimeRate => text().nullable()();
+  TextColumn get offPeakTime => text().nullable()();
+  TextColumn get photoOfIndexImage => text().nullable()();
+
+  TextColumn get positionOfPhaseConductorImage => text().nullable()();
+  BoolColumn get isTheDriverWellPositioned => boolean().nullable()();
+  TextColumn get reasonFOrDriverNotWellPositioned => text().nullable()();
+  TextColumn get beforeCcpiLoggingImage1 => text().nullable()();
+  TextColumn get beforeCcpiLoggingImage2 => text().nullable()();
+  TextColumn get afterCcpiLoggingImage1 => text().nullable()();
+  TextColumn get afterCcpiLoggingImage2 => text().nullable()();
+  BoolColumn get identificationBetweenPhaseAndNeutral => boolean().nullable()();
+  TextColumn get oldMeterImage => text().nullable()();
+  TextColumn get terminalBlockTightenedPowerImage => text().nullable()();
+  TextColumn get terminalCoverPutBackInPlaceImage => text().nullable()();
+  TextColumn get oldMeterDepositedImage => text().nullable()();
+  TextColumn get electricalEquipmentDepositedImage => text().nullable()();
+  TextColumn get enterAdditionallyMaterial => text().nullable()();
+
+  BoolColumn get presenceOfPnt => boolean().nullable()();
+  BoolColumn get inversionBetweenPhaseAndMaterial => boolean().nullable()();
+  BoolColumn get resumptionOfEnslavement => boolean().nullable()();
+  BoolColumn get ictCabling => boolean().nullable()();
+  TextColumn get photoOfWiringImage => text().nullable()();
+  TextColumn get photosOfNewMeterInstalled => text().nullable()();
+
+  BoolColumn get hasTheCircuitBreakerBeenReplaced => boolean().nullable()();
+  TextColumn get resonForCircuitBreakerNonReplacement => text().nullable()();
+  BoolColumn get circuitBreakerLead => boolean().nullable()();
+  TextColumn get reasonForNoncircuitBreakerLead => text().nullable()();
+  BoolColumn get leadCCPI => boolean().nullable()();
+  TextColumn get indicateReasonForCircuitBreakerSettings => text().nullable()();
+  TextColumn get circuitBreakerGuageImage => text().nullable()();
+  BoolColumn get modifiedCircuitBreakerCapacity => boolean().nullable()();
+  TextColumn get calibratedPower => text().nullable()();
+  TextColumn get reasonForNonModifiedCircuitBreakerCapacity => text().nullable()();
+  BoolColumn get statusOfInstalledMeter => boolean().nullable()();
+  TextColumn get enterTheAnomalyProgramming => text().nullable()();
+  TextColumn get serialNumber => text().nullable()();
+  TextColumn get meterAnomalyImage => text().nullable()();
+  TextColumn get additionalInformationProgramming => text().nullable()();
+  BoolColumn get circuitBreakerProperlyEngaged => boolean().nullable()();
+  TextColumn get enterTheAnomalyCircuitBreakerInterlock => text().nullable()();
+  TextColumn get additionalInformationCircuitBreakerInterlock => text().nullable()();
+  TextColumn get customerFeedbackComment => text().nullable()();
+  TextColumn get customerSignatureImage => text().nullable()();
+
+  BoolColumn get isGripCase => boolean().nullable()();
+  TextColumn get gripCaseReason => text().nullable()();
+  TextColumn get noticeOfPassageImage1 => text().nullable()();
+  TextColumn get noticeOfPassageImage2 => text().nullable()();
+  TextColumn get displacementPhotoImage1 => text().nullable()();
+  TextColumn get displacementPhotoImage2 => text().nullable()();
+  TextColumn get gripCaseComment => text().nullable()();
+}

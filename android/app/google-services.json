@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "678668819264",
+    "project_id": "imc-app-345008",
+    "storage_bucket": "imc-app-345008.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678668819264:android:83234b65c83c5b18a3b8a5",
+        "android_client_info": {
+          "package_name": "com.app.imc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678668819264-kmjc5teimkpaecjlmef8a27ipd81v8ab.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.imc",
+            "certificate_hash": "c02d72cf8c859acd0ad5a7a45bbe7c508c0b4e57"
+          }
+        },
+        {
+          "client_id": "678668819264-6f9rdf0pc0oug7oeluchdisgutkra0cr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvAbDQsYsJSr4S5_vQlxKlzjnyXou7uV0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "678668819264-6f9rdf0pc0oug7oeluchdisgutkra0cr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
